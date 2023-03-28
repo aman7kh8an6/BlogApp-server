@@ -117,6 +117,6 @@ app.get('/tags/:cat',(req,res) =>{
     })
 })
 
-app.listen(PORT, ()=>{
+app.listen(BASE_URL || PORT, ()=>{
     console.log("Hi");
 })
